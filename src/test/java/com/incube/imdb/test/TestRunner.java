@@ -8,6 +8,6 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         plugin = "pretty",
         monochrome = true,        
-        features = { "src/test/resources/features/profile.feature" }
+        features = { "src/test/resources/features" }
 )
 public class TestRunner {}
